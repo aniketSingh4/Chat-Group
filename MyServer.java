@@ -110,7 +110,7 @@ private   void createGUI() {
         };
         new Thread(r1).start();
     }
-    //Start Writing
+    //We don't need startWriting method because of we deploy writhing method on key evenet named keyRelease.
     public void startWriting(){
         System.out.println("Start Writing...");
         Runnable r2 = ()->{
